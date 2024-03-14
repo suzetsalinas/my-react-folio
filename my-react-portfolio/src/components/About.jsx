@@ -17,13 +17,13 @@ function About() {
             <div className="bg-gray-400 rounded-lg p-6 lg:pl-12">
               <h1 className="mb-8 text-3xl font-bold text-center lg:text-left">About Me</h1>
               <p className="mb-8 pb-2 text-center lg:text-left">
-                Description 1
+              Hello! My name is Suzet and I'm a Latina web developer based in Austin, Tx. 
               </p>
               <p className="mb-8 pb-2 text-center lg:text-left">
-                Description 2
+              I have a passion for creating beautiful and functional websites. I just completed a full stack coding bootcamp and can't wait to implement my new-found skills in more projects!
               </p>
               <p className="mb-8 pb-2 text-center lg:text-left">
-                Description 3
+              In my free time, I enjoy hiking, reading, and running long distances.
               </p>
             </div>
           </div>
