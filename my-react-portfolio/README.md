@@ -1,7 +1,5 @@
 # Suzet's React Portfolio
 
-## Description
-
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
@@ -33,3 +31,9 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+## Mock Up
+![mockup](assets/reactPortfolio.png)
+
+## Resources
+I would like to thank my colleagues for guiding me through this project. I also used the Learning Assistant to help with syntax issues as well as issues regarding the dependencies I had to install. 
