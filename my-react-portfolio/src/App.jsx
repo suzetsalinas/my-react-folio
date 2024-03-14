@@ -9,9 +9,10 @@ import Resume from './components/Resume';
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100">
+      <div className="flex flex-col min-h-screen ">
         <Header />
-        <main className="flex-grow container mx-auto px-4 py-8">
+        {/* could not get bkgd image to render */}
+        <main className="flex-grow container mx-auto px-4 py-8" style={{backgroundImage: "url('../assets/atx.png')", backgroundSize: "cover", backgroundPosition: "center"}}>
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
