@@ -3,18 +3,20 @@ import { motion } from 'framer-motion';
 import resolute from '../assets/resolute.png';
 import workoutBuddy from '../assets/workoutBuddy.png'; 
 import marvelQuiz from '../assets/marvelQuiz.png'; 
-
-
-
-
+import forecast from '../assets/forecast.png';
+import noterize from '../assets/noterize.png';
+import scheduler from '../assets/scheduler.png';
 
 function Portfolio() {
   const [hoveredItem, setHoveredItem] = useState(null);
 
   const projects = [
-    { img: marvelQuiz, name: 'Project 1', link: 'https://github.com/Donnie1129/marvel-character-personality-quiz' },
-    { img: resolute, name: 'Project 2', link: 'https://github.com/suzetsalinas/health-tracker' },
-    { img: workoutBuddy, name: 'Project 3', link: 'https://workout-buddy-2.onrender.com/' },
+    { img: marvelQuiz, name: 'Marvel Quiz', link: 'https://github.com/Donnie1129/marvel-character-personality-quiz' },
+    { img: resolute, name: 'Resolute Fitness', link: 'https://github.com/suzetsalinas/health-tracker' },
+    { img: workoutBuddy, name: 'Workout Buddy', link: 'https://workout-buddy-2.onrender.com/' },
+    { img: forecast, name: 'Weather Forecast', link: 'https://suzetsalinas.github.io/weather-forecast/' },
+    { img: noterize, name: 'Noterize', link: 'https://noterize-app-6adf8507c2a1.herokuapp.com/' },
+    { img: scheduler, name: 'Schedule App', link: 'https://github.com/suzetsalinas/Challenge-5-repo' },
 
   ];
 
